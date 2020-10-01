@@ -42,12 +42,25 @@
         }
     div.b {
         height: 300px;
-    }   
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 15px;
+      }
+      header {
+         background-image: url("https://media1.tenor.com/images/1048f128fb4ee458c4b796b3616b2c91/tenor.gif?itemid=3551638");
+         background-repeat: no-repeat; 
+         background-position: 50%;
+         background-size: contain;
+      }   
 </style>
 <div style="min-width: 1024px;">
 <header>
     <h1>
-        Intro to HTML
+        Making a Sandwich
     </h1>
 </header>
 
@@ -144,6 +157,42 @@
         </article>
     </div>
     </section>
+    <br><br>
+    <div>
+        <nav>
+            <br>
+            <p>
+                Watch How Pimento Cheese Is Made
+            </p>
+            <br>
+            <iframe src="https://www.youtube.com/embed/L7uwWu79UkM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+        </nav>
+    </div>
+    <article>
+        <table style="width:100%">
+            <tr>
+                <th>Best Animals for Sandwiches</th>
+                <th>Worst Animals for Sandwiches</th> 
+            </tr>
+            <tr>
+                <td>Pigs</td>
+                <td>Bees</td>
+            </tr>
+            <tr>
+                <td>Chickens</td>
+                <td>Spiders</td>
+            </tr>
+            <tr>
+                <td>Cows</td>
+                <td>Fire Ants</td>
+            </tr>
+            <tr>
+                <td>Turkeys</td>
+                <td>Worms</td>
+            </tr>
+          </table>
+    </article>
 </body>
 </div>     
 </html>
